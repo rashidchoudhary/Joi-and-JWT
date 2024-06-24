@@ -3,6 +3,6 @@ const schema = mongoose.Schema({
 	name: { type: String, required: true },
 	email: { type: String, required: true },
 	password: { type: String, required: true },
-	age: { type: String },
+	age: { type: Number },
 });
 export default mongoose.model("User", schema);
